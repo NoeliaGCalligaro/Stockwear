@@ -1,0 +1,45 @@
+/* Estilos de la barra de navegación */
+body {
+    margin: 0;
+}
+.navbar {
+	background-color: #8ebdb6;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+    height: 69px;
+}
+
+/* Estilos del enlace del nombre del programa */
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+/* Estilos del formulario de búsqueda */
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0;
+    padding-top: 0%;
+}
+
+/* Estilos del campo de entrada de búsqueda */
+.search-input {
+	border: none;
+    height: 69px;
+    width: 500px;
+    background-color: #063940;
+    font-size: 20px;
+}
+/* Estilos del contenido de la página */
+.content {
+	padding-top: 60px;
+}
