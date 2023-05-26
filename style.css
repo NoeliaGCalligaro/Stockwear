@@ -43,7 +43,7 @@ body {
     width: 500px;
     background-color: #063940;
     font-size: 20px;
-	margin-right: 600px;
+	margin-right: 300px;
 }
 /* Estilos del contenido de la página */
 .content{
@@ -96,4 +96,8 @@ body {
 }
 p{
 	font-size: 20px;
+}
+.fa-bell{
+	margin-left: 1px;
+	color: white;
 }
