@@ -1,6 +1,7 @@
 /* Estilos de la barra de navegación */
 body {
     margin: 0;
+	font-family: 'Sen', sans-serif;
 }
 .navbar {
 	background-color: #8ebdb6;
@@ -9,6 +10,8 @@ body {
 	top: 0;
 	width: 100%;
     height: 69px;
+	font-family: 'Alata', sans-serif;
+	font-size: 48px
 }
 
 /* Estilos del enlace del nombre del programa */
@@ -62,4 +65,22 @@ body {
 .sidebar a:hover {
 	background-color: #ddd;
 }
-
+.titulo{
+	font-size: 72px;
+	margin-left: 340px;
+	margin-top: 50px;
+	color: #8ebdb6;
+}
+.container-boxes{
+	width: 800px;
+	height: 300px;
+	border: 1px solid red;
+	margin-left: 300px;
+	display: flex;
+	flex-direction: row;
+}
+.box{
+	height: 162px;
+	width: 187px;
+	border: 1px solid red;
+}
