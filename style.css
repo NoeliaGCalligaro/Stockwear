@@ -13,7 +13,9 @@ body {
 	font-family: 'Alata', sans-serif;
 	font-size: 48px
 }
-
+.nombre{
+	margin-left: 2px;
+}
 /* Estilos del enlace del nombre del programa */
 .navbar a {
 	float: left;
@@ -41,10 +43,11 @@ body {
     width: 500px;
     background-color: #063940;
     font-size: 20px;
+	margin-right: 600px;
 }
 /* Estilos del contenido de la página */
-.content {
-	padding-top: 60px;
+.content{
+	margin-top: 100px;
 }
 /*sidebar*/
 .sidebar {
@@ -74,13 +77,23 @@ body {
 .container-boxes{
 	width: 800px;
 	height: 300px;
-	border: 1px solid red;
 	margin-left: 300px;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
+	margin-bottom: 50px;
 }
 .box{
-	height: 162px;
-	width: 187px;
-	border: 1px solid red;
+	height: 120px;
+	width: 150px;
+	border: 2px solid gray;
+	margin: 20px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: end;
+}
+p{
+	font-size: 20px;
 }
