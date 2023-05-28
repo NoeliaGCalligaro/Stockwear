@@ -1,0 +1,47 @@
+@import url('../style.css');
+/* Estilos barras de navegacion */
+
+.content{
+    position: fixed;
+    width: 100%;
+	top: 149px;
+	left: 80px;
+    height: 100%;
+	overflow: auto;
+}
+.content h1{
+    margin-left: 350px;
+}
+.content h2{
+    margin-left: 420px;
+}
+
+.content form{
+    margin-left: 400px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+#name{
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#email{
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#message{
+    height: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.fa-square-whatsapp{
+    position: fixed;
+    bottom: 70px;
+    margin-left: 1100px;
+    font-size: 80px;
+    color: green;
+    cursor: pointer;
+}
