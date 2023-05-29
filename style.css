@@ -1,7 +1,7 @@
 /* Estilos barras de navegacion */
 body {
     margin: 0;
-	font-family: 'Sen', sans-serif;
+	font-family: 'Rubik', sans-serif;;
 }
 .navbar {
     display: flex;
@@ -41,6 +41,7 @@ body {
     color: white;
 }
 .nombre{
+	font-family: 'Rubik', sans-serif;
 	color: white;
 	text-align: center;
 	text-decoration: none;
@@ -107,10 +108,12 @@ body {
 	flex-direction: column;
 }
 .titulo{
+	font-family: 'Rubik', sans-serif;
 	font-size: 60px;
 	margin-left: 400px;
 	margin-top: 100px;
 	color: #8ebdb6;
+	text-shadow: 2px 2px 4px rgb(65, 255, 223);
 }
 .container-boxes{
     width: 800px;
@@ -162,3 +165,4 @@ body {
     color: white;
     text-align: center;
 }
+

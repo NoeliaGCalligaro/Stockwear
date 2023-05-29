@@ -48,24 +48,7 @@
     margin-left: 35px;
     top: 220px;
 }
-.box-datos div{
-    font-size: 25px;
-    margin: 5px;
-    border: none;
-    background-color: #B1B2B5;
-    color: #555252;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    border-radius: 3px;
-}
-.box-datos div p{
-    text-decoration: black;
-    font-size: 16px;
-    font-weight: bold;
-}
+
 table{
     position: fixed;
     top: 370px;
