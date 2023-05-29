@@ -4,7 +4,7 @@
 .content{
     position: fixed;
     width: 100%;
-	top: 149px;
+	top: 70px;
 	left: 80px;
     height: 100%;
 	overflow: auto;
@@ -15,7 +15,6 @@
 .content h2{
     margin-left: 420px;
 }
-
 .content form{
     margin-left: 400px;
     max-width: 400px;
