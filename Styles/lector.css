@@ -49,50 +49,49 @@
     font-size: 16px;
     margin-left: 5px;
 }
-.datos-prod{
-    background-color: grey;
+.datos{
+    background-color: #e8e9ea;
+    border: 1px solid #e8e9ea;
+    width: 700px;
+    height: 250px;
     display: flex;
-    flex-direction: row;
     position: fixed;
-    margin-left: 35px;
-    top: 220px;
+    margin-left: 300px;
+    top: 300px;
+
 }
-/*
-.datos-prod {
-    font-size: 25px;
-    margin: 5px;
-    border: none;
-    background-color: #B1B2B5;
-    color: #555252;
-    align-items: center;
-    justify-content: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    border-radius: 3px;
+h1{
+    margin-left: 30px;
 }
-.datos-prod h1{
-    text-decoration: black;
-    font-size: 16px;
-    font-weight: bold;
-}*/
+
 
 table{
     position: fixed;
     top: 370px;
     border-collapse: collapse; 
     width: 500px;
-    margin-left: 300px;
-    font-size: 18px;
+    margin-left: 100px;
+
 }
 th{
-    border: 2px solid white;
-    width: 150px;
+    border: 4px solid #e8e9ea;
+    text-align: center;
+    width: 200px;
     padding: 5px;
-    background-color: #B1B2B5;
+    background-color: #9b9b9b;
 }
 td{
-    border: 2px solid white;
+    border: 4px solid #e8e9ea;
+    width: 200px;
     text-align: center;
     padding: 5px;
+}
+#celda{
+    background-color: #e8e9ea;
+    width: 65px;
+    border: solid 1px #757575;
+    padding: 3px 0 3px 10px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
 }
