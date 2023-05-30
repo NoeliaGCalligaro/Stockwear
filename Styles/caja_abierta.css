@@ -1,0 +1,128 @@
+@import url(../style.css);
+.content{
+    position: fixed;
+    width: 100%;
+	top: 70px;
+	left: 80px;
+    height: 100%;
+	overflow: auto;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+button:hover{
+    background-color: #d3d3d4;
+}
+.botones{
+    position: fixed;
+	left: 1050px;
+    display: flex;
+    flex-direction: row;
+}
+.botones button{
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    overflow: auto;
+    width: 120px;
+    height: 40px;
+    background-color: #3b3b3b;
+}
+.monto{
+    margin-left: 40px;
+    position: fixed;
+    top: 150px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.monto button{
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    overflow: auto;
+    width: 90px;
+    height: 25px;
+    background-color: #3b3b3b;
+}
+.texto{
+    margin-left: 40px;
+    position: fixed;
+    top: 220px;
+    font-size: 18px;
+}
+.tiempo {
+    position: fixed;
+    top: 145px;
+    left: 1150px;
+    font-size: 18px;
+}
+#imputar{
+    position: fixed;
+    top: 200px;
+    left: 1160px;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    overflow: auto;
+    width: 150px;
+    height: 30px;
+    background-color: #3b3b3b;
+}
+hr {
+    border-style: dashed;
+}
+.container-boxes{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-right: 230px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.caja{
+	height: 90px;
+	width: 180px;
+	border: 2px solid #d3d3d4;
+	margin: 20px;
+	border-radius: 3px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	flex-direction: column;
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	padding-top: 20px;
+	transition: 0.4s;
+    position: relative;
+}
+.caja::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 65%;
+    background-color: #d3d3d4;
+    z-index: -1;
+}
+.caja p{
+    margin-top: 1px;
+    position: initial;
+    margin-bottom: 30px;
+}
+.caja #num{
+    font-size: 30px;
+}

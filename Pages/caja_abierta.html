@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Styles/caja.css">
+    <link rel="stylesheet" href="../Styles/caja_abierta.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Sen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Sen&family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
     <title>Caja</title>
 </head>
 <body>
@@ -33,17 +33,32 @@
     <!-- Fin barras de navegación -->
      <div class="banner">
         <h1>Caja</h1>
+        <div class="botones">
+            <button>Historial</button>
+            <button>Cerrar caja</button>
+        </div>
      </div>
     <div class="content">
-        <h1>Apertura de caja</h1>
-        <p class="texto">La caja inicia con el siguiente monto en efectivo:</p>
-        <div class="ingreso">
-            <p class="signo">$</p>
-            <input type="number" class="buscador" placeholder="00.0">
-            <button><a href="caja_abierta.html">Abrir caja</a></button>
+        <div class="monto">
+            <p>$1.000,0</p>
+            <button>Ingresar</button>
+            <button>Retirar</button>
+        </div>
+        <p class="texto">Efectivo de apertura: $1.000,0</p>
+        <p class="tiempo">Se abrió hace 49 minutos</p>
+        <button id="imputar">Imputar gastos</button>
+        <hr>
+        <div class="container-boxes">
+            <div class="caja" id="box-1"><p>Ventas</p><p id="num">0</p></div>
+            <div class="caja" id="box-2"><p>Total</p><p id="num">$0.00</p></div>
+            <div class="caja" id="box-3"><p>Costos</p><p id="num">$0.00</p></div>
+            <div class="caja" id="box-4"><p>Beneficios</p><p id="num">$0.00</p></div>
+            <div class="caja" id="box-5"><p>Efectivo</p><p id="num">$0.00</p></div>
+            <div class="caja" id="box-6"><p>Otros metodos</p><p id="num">$0.00</p></div>
+            <div class="caja" id="box-7"><p>Ingresos</p><p id="num">$0.00</p></div>
+            <div class="caja" id="box-8"><p>Retiros</p><p id="num">$0.00</p></div>
         </div>
     </div>
-
 
     <script src="https://kit.fontawesome.com/e856d335c9.js" crossorigin="anonymous"></script>
 </body>
