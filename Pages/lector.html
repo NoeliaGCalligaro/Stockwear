@@ -36,12 +36,15 @@
         <button>Cargar venta</button>
     </div> 
     <div class="content">
-        <form class="search" action="#">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <input class="input" type="text" placeholder="Buscar productos">
-        </form>
+        <div class="detalles-prod">
+            <form class="search" action="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="input" type="text" placeholder=" | Buscar productos">
+            </form>
+        </div>
         <div class="datos">
             <h1>$8000,00</h1>
+            <button>X</button>
              <table>
                 <tr>
                   <th>Unidades</th>
@@ -49,15 +52,15 @@
                   <th>%</th>
                   <th>Unitario</th>
                   <th>Subtotal</th>
-                  <th>X</th>
+                  <th></th>
                 </tr>
                 <tr>
-                  <td id="celda">1</td>
+                  <td id="celda"><input type="number" min="1" max="100" step="1"></td>
                   <td>Remera animal print XS</td>
-                  <td id="celda">0%</td>
+                  <td id="celda"><input type="number" min="-100" max="100" step="1"><span>%</span></td>
                   <td>$8.000,00</td>
                   <td>$8.000,00</td>
-                  <td>X</td>
+                  <td><button>Cancelar</button></td>
                 </tr>
         </div>
     </div>
