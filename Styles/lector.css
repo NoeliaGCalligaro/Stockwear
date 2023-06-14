@@ -73,14 +73,11 @@
 
 .input {
     border: none;
-    height: 15px;
-    width: 200px;
+    height: 31px;
+    width: 320px;
     background-color: white;
     font-size: 18px;
-    margin-left: 0;
-    margin-top: 6px;
-    margin-bottom: 5px;
-    display: inline-block;
+    margin-left: 5;
     border-width: 0;
 }
 
@@ -95,8 +92,6 @@ table{
     border-collapse: collapse; 
     width: 500px;
     margin-left: 100px;
-    
-
 }
 
 th{
@@ -112,8 +107,8 @@ td{
     width: 300px;
     text-align: center;
     padding: 5px;
+    margin-top: 20px;
 }
-
 #celda{
     background-color: #e8e9ea;
     width: 80px;
@@ -122,7 +117,6 @@ td{
     display: block;
     text-align: center;
     justify-content: center;
-    margin: 0 auto;
 }
 
 .boton:hover{
