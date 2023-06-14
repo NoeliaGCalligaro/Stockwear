@@ -16,6 +16,7 @@
     background-color: #8ebdb6;
     border: 1px solid white;
 }
+
 .content{
     position: fixed;
     width: 100%;
@@ -35,63 +36,98 @@
     height: 20px;
     background-color: white;
 }
-.input {
-    border: none;
-    height: 15px;
-    width: 300px;
-    background-color: white;
-    font-size: 18px;
-	margin-left: 5px;
-    margin-top: 6px;
-    margin-bottom: 5px;
-}
 .fa-magnifying-glass{
     font-size: 16px;
     margin-left: 5px;
 }
+
 .datos{
+    position: relative;
     background-color: #e8e9ea;
     border: 1px solid #e8e9ea;
     width: 700px;
     height: 250px;
-    display: flex;
     position: fixed;
     margin-left: 300px;
     top: 300px;
-
 }
+
+.salir {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.salir:hover {
+    background-color: rgb(170, 170, 170);
+    cursor: pointer;
+    transition: background .2s;
+    border: none;
+}
+
+.input {
+    border: none;
+    height: 15px;
+    width: 200px;
+    background-color: white;
+    font-size: 18px;
+    margin-left: 0;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    display: inline-block;
+    border-width: 0;
+}
+
 h1{
-    margin-left: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
 }
-
 
 table{
-    position: fixed;
+    display: flex;
     top: 370px;
     border-collapse: collapse; 
     width: 500px;
     margin-left: 100px;
+    
 
 }
+
 th{
     border: 4px solid #e8e9ea;
     text-align: center;
-    width: 200px;
+    width: 300px;
     padding: 5px;
-    background-color: #9b9b9b;
+    background-color: #bdbdbd;
 }
+
 td{
     border: 4px solid #e8e9ea;
-    width: 200px;
+    width: 300px;
     text-align: center;
     padding: 5px;
 }
+
 #celda{
     background-color: #e8e9ea;
-    width: 65px;
-    border: solid 1px #757575;
+    width: 80px;
+    border: none;
     padding: 3px 0 3px 10px;
     display: block;
     text-align: center;
+    justify-content: center;
     margin: 0 auto;
+}
+
+.boton:hover{
+    background-color: rgb(170, 170, 170);
+    cursor: pointer;
+    border: 1px solid #7c7c7c;
+    border-radius: 3px;
 }
