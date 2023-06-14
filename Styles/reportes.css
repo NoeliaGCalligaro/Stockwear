@@ -1,1 +1,27 @@
 @import url(../style.css);
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 150px auto;
+    
+}
+.caja{
+    width: 50%;
+    margin-bottom: 10px;
+}
+.boton{
+    display: block;
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid rgb(204, 202, 202);
+    border-radius: 5px;
+}
+
+.boton:hover{
+    background-color: rgb(204, 202, 202);
+    cursor: pointer;
+    border: 1px solid rgb(204, 202, 202);
+    transition: background-color 250ms,margin .1s;
+}
