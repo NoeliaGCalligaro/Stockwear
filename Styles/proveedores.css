@@ -1,1 +1,46 @@
 @import url(../style.css);
+.banner button{
+    color: white;
+    background-color: #3b3b3b;
+    position: fixed;
+	left: 1200px;
+	overflow: auto;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.banner button:hover{
+    background-color: #8ebdb6;
+    border: 1px solid white;
+}
+
+#num-proveedores{
+    display: block;
+    font-size: 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    width: 150px;
+    height: 80px;
+    margin: 160px 90px;
+    padding: 10px 5px;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(197, 196, 196);
+}
+p{
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.content{    
+    margin: 100px 45%;
+    width: 700px;
+    
+}
