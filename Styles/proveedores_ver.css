@@ -1,0 +1,31 @@
+@import url(../style.css);
+.banner button{
+    color: white;
+    background-color: #3b3b3b;
+    position: fixed;
+    overflow: auto;
+	left: 1200px;	
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+.banner button:hover{
+    background-color: #8ebdb6;
+    border: 1px solid white;
+}
+.datos-prov{
+    background-color: #a3a3a3;
+    margin: 1500px 90px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 150px 30%;
+    
+}

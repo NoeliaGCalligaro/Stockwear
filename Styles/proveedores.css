@@ -26,6 +26,8 @@
     width: 150px;
     height: 80px;
     margin: 160px 90px;
+    margin-bottom: 50px;
+    margin-right: 50px;
     padding: 10px 5px;
     text-align: center;
     align-items: center;
@@ -39,8 +41,49 @@ h2{
     margin-top: 0;
     margin-bottom: 10px;
 }
-.content{    
-    margin: 100px 45%;
-    width: 700px;
+.content{   
+    margin: 35px 30%;
+    width: 900px;
     
+}
+.buscar{
+    margin: 0;
+    width: 650px;
+    height: 30px;
+}
+#datos-prov{
+    width: 650px;
+    height: auto;
+}
+table{
+    border: 1px solid #a1a1a1;
+    border-collapse: collapse;
+    width: 700px;
+}
+th{
+    background-color: #a1a1a1;
+    color: white;
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a1a1a1;
+}
+td{
+    width: 25%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a1a1a1;
+}
+#Nombre{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.ver:hover{
+    background-color: rgb(204, 202, 202);
+    cursor: pointer;
+    border: 1px solid rgb(104, 104, 104);
+    transition: background-color 250ms,margin .1s;
 }
