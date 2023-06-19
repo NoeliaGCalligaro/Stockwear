@@ -43,10 +43,20 @@
     justify-content: center;
     margin-left: 20px;
 }
+
 .content{
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     width: 700px;
-    margin: 150px 30%;*/
+    margin: 25px 30%;
+}
+td{
+    padding: 20px;
+}
+.caja{
+    margin: 35px 30%;
+    width: 500px;
+    text-align: center;
+    padding: 5px;
+    border: solid 1px;
+    border-style: dashed;
+    color:#a3a3a3;
 }
